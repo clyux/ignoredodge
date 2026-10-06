@@ -18,7 +18,15 @@ On Hypixel, if you `/ignore add <some player>`, the server can respond in three 
 
 <img width="333" height="50" alt="image" src="https://github.com/user-attachments/assets/5139cbc5-86f5-4e65-bfe1-d189e146fd7c" />
 
-In the pregame countdown, running `/ignore add <nick>` the server will either respond with `Blocked <nick>.` or `You've already blocked that player! /block remove <nick> to unblock them!`
+In the pregame countdown, running `/ignore add <nick>` the server will either respond with 
+
+`Blocked <nick>.` 
+
+or 
+
+`You've already blocked that player! /block remove <nick> to unblock them!`
+
+
 These messages are both considered a "success" and it means that nick is in the game with you. Otherwise, you haven't been paired with that nick.
 
 If the player you are trying to dodge unnicks, this bug no longer works.

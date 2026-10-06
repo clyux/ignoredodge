@@ -1,9 +1,9 @@
 # ignoredodge
 
-A Minecraft Forge 1.8.9 mod that exploits a Duels bug on Hypixel to identify nicked players in pregame.
+A Minecraft Forge 1.8.9 mod that exploits a bug on Hypixel to identify nicked players in pregame.
 
 > [!CAUTION]
-> Despite being entirely client side, this breaks Hypixel's server rules and I cannot guarantee it is undetectable.
+> This mod breaks Hypixel's server rules and I cannot guarantee it is undetectable.
 
 [Hypixel's Statement on Automation](https://support.hypixel.net/hc/en-us/articles/6472550754962-Hypixel-Allowed-Modifications)
 
@@ -28,3 +28,13 @@ or
 These messages are both considered a success, meaning that the nick is in the game with you.
 
 If the player you are trying to dodge unnicks, this bug no longer works.
+
+# Usage
+
+`/ignoredodge` parent command reveals the help menu for the mod.
+
+## Known issues
+
+1. No extra checks for requeue failure
+2. Config is not persistent
+3. probably a bunch more I forgot about

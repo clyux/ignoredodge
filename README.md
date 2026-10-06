@@ -2,9 +2,9 @@
 
 A Minecraft Forge 1.8.9 mod that exploits a Duels bug on Hypixel to identify nicked players in pregame.
 
-[!CAUTION]
+> [!CAUTION]
 
-Despite being entirely client side, this breaks Hypixel's server rules and I cannot guarantee it is undetectable.
+> Despite being entirely client side, this breaks Hypixel's server rules and I cannot guarantee it is undetectable.
 
 [Hypixel's Statement on Automation](https://support.hypixel.net/hc/en-us/articles/6472550754962-Hypixel-Allowed-Modifications)
 

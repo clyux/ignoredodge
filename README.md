@@ -1,6 +1,7 @@
 # ignoredodge
 
-A Minecraft Forge 1.8.9 mod that exploits a bug on Hypixel to identify nicked players in pregame.
+A Minecraft Forge 1.8.9 mod that exploits a loophole in Hypixel's handling of ignore commands to identify nicked players in pregame.
+I have only tested this for post-Tourney-obfuscation Duels, but it applies to general Hypixel.
 
 > [!CAUTION]
 > This mod breaks Hypixel's server rules and I cannot guarantee it is undetectable.
@@ -25,10 +26,10 @@ or
 
 `You've already blocked that player! /block remove <nick> to unblock them!`
 
-These messages are both considered a success, meaning that the nick is in the game with you. 
+These messages are both considered a success, meaning that the nick is in the game with you.
 
 The mod will automatically dodge (requeue) into a new Duels game of your choosing if any nick the user has flagged is detected. 
-The maximum number of concurrent nicks is 4, as there is a ~40-tick (2000ms/2.000s) delay between ignore commands. In queue times shorter than 10 seconds, the max is effectively reduced to 2.
+The maximum number of concurrent nicks is 4, as there is a ~40-tick (2000ms/2.000s) delay between ignore commands. In queue times shorter than 10 seconds, the max amount of nicks is effectively reduced to 2.
 
 > [!NOTE]
 > Adding more nicks to the pool than your queue time can check for may cause an unavoidable loss. There are currently no protections in place to safeguard for this.
